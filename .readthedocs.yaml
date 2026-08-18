@@ -1,8 +1,14 @@
-version: 2
+version: 0.2.7
+
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.11"
+
 sphinx:
   configuration: docs/source/conf.py
+
 formats:
   - pdf
   - htmlzip
-python:
-  install:
+
