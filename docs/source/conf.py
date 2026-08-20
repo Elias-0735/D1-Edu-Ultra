@@ -25,6 +25,7 @@ language = 'zh_CN'
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
+html_css_files = ["css/hide_top_select.css"]
 
 # 隐藏右上角 View Source 链接
 html_copy_source = False
